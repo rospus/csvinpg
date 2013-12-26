@@ -1,0 +1,945 @@
+2013-06-03 06:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-03 06:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-03 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-03 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-03 12:00:06 Distinta-MILANO-2013-06-03_08.46.15.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-06-03 12:00:06 Distinta-MILANO-2013-06-03_08.46.15.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-06-03 12:00:06 Distinta-MILANO-2013-06-03_08.46.15.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-06-03 12:00:06 Distinta-MILANO-2013-06-03_08.46.15.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-06-03 12:00:06 Distinta-MILANO-2013-06-03_08.46.15.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-04 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-04 00:00:08 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-04 00:00:08 Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-06-04 00:00:08 Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-06-04 00:00:08 Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 10
+2013-06-04 00:00:08 Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 10
+2013-06-04 00:00:08 Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 307
+2013-06-04 00:00:08 Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 307
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 10
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 10
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 307
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 307
+2013-06-04 00:00:09 Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-04 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-04 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-04 12:00:07 Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 216
+2013-06-04 12:00:07 Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 216
+2013-06-04 12:00:07 Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 216
+2013-06-04 12:00:07 Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 216
+2013-06-04 12:00:07 Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-05 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-05 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-05 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-05 12:00:10 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-05 12:00:10 Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 11
+2013-06-05 12:00:10 Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 11
+2013-06-05 12:00:10 Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 11
+2013-06-05 12:00:11 Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 11
+2013-06-05 12:00:11 Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-06 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-06 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-06 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-06 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-06 12:00:07 Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 230
+2013-06-06 12:00:07 Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 230
+2013-06-06 12:00:07 Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 139
+2013-06-06 12:00:07 Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 139
+2013-06-06 12:00:07 Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 10
+2013-06-06 12:00:07 Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 10
+2013-06-06 12:00:08 Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 230
+2013-06-06 12:00:08 Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 230
+2013-06-06 12:00:08 Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-06 12:00:08 Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 139
+2013-06-06 12:00:08 Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 139
+2013-06-06 12:00:08 Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-06 12:00:08 Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 10
+2013-06-06 12:00:09 Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 10
+2013-06-06 12:00:09 Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-07 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-07 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 344
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 344
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 28
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 28
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 344
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 344
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 28
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 28
+2013-06-07 00:00:06 Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-07 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-07 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 103
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 103
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 103
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 103
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-07 12:00:06 Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-06-07 12:00:07 Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-06-07 12:00:07 Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-08 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-08 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-08 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-08 12:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-09 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-09 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-09 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-09 12:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-10 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-10 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-10 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-10 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-10 12:00:07 Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 167
+2013-06-10 12:00:07 Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 167
+2013-06-10 12:00:07 Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 167
+2013-06-10 12:00:07 Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 167
+2013-06-10 12:00:07 Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-11 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-11 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-11 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-11 12:00:08 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-11 12:00:08 Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 53
+2013-06-11 12:00:08 Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 53
+2013-06-11 12:00:08 Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 53
+2013-06-11 12:00:08 Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 53
+2013-06-11 12:00:08 Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-12 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-12 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-12 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-12 12:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-12 12:00:17 Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 3
+2013-06-12 12:00:17 Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 3
+2013-06-12 12:00:17 Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 3
+2013-06-12 12:00:18 Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 3
+2013-06-12 12:00:18 Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-13 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-13 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-13 00:00:05 Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 75
+2013-06-13 00:00:06 Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 75
+2013-06-13 00:00:06 Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 2
+2013-06-13 00:00:06 Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 2
+2013-06-13 00:00:06 Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 285
+2013-06-13 00:00:06 Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 285
+2013-06-13 00:00:06 Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 75
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 75
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 2
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 2
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 285
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 285
+2013-06-13 00:00:07 Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-13 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-13 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-13 12:00:05 Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-06-13 12:00:05 Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-06-13 12:00:05 Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-06-13 12:00:06 Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-06-13 12:00:06 Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-14 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-14 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-14 00:00:05 Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 91
+2013-06-14 00:00:05 Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 91
+2013-06-14 00:00:05 Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 91
+2013-06-14 00:00:05 Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 91
+2013-06-14 00:00:05 Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-14 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-14 12:00:10 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-14 12:00:10 Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 126
+2013-06-14 12:00:10 Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 126
+2013-06-14 12:00:10 Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 126
+2013-06-14 12:00:11 Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 126
+2013-06-14 12:00:11 Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-15 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-15 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-15 00:00:05 Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 56
+2013-06-15 00:00:05 Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 56
+2013-06-15 00:00:05 Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 56
+2013-06-15 00:00:06 Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 56
+2013-06-15 00:00:06 Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-15 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-15 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-16 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-16 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-16 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-16 12:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-17 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-17 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-17 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-17 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-18 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-18 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-18 00:00:05 Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 43
+2013-06-18 00:00:05 Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 43
+2013-06-18 00:00:05 Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 199
+2013-06-18 00:00:05 Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 199
+2013-06-18 00:00:06 Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 43
+2013-06-18 00:00:06 Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 43
+2013-06-18 00:00:06 Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-18 00:00:06 Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 199
+2013-06-18 00:00:06 Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 199
+2013-06-18 00:00:07 Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-18 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-18 12:01:33 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-19 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-19 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-19 00:00:05 Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 2
+2013-06-19 00:00:05 Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 2
+2013-06-19 00:00:06 Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 2
+2013-06-19 00:00:06 Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 2
+2013-06-19 00:00:06 Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-19 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-19 12:00:08 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-19 12:00:08 Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-06-19 12:00:08 Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-06-19 12:00:08 Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-06-19 12:00:08 Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-06-19 12:00:08 Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-20 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-20 00:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-20 00:00:08 Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 58
+2013-06-20 00:00:08 Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 58
+2013-06-20 00:00:08 Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 58
+2013-06-20 00:00:08 Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 58
+2013-06-20 00:00:08 Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-20 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-20 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-21 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-21 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-21 00:00:06 Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 146
+2013-06-21 00:00:06 Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 146
+2013-06-21 00:00:06 Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 146
+2013-06-21 00:00:06 Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 146
+2013-06-21 00:00:06 Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-21 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-21 12:00:10 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 48
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 48
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 17
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 17
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 48
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 48
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 17
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 17
+2013-06-21 12:00:10 Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-22 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-22 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-22 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-22 12:00:13 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-23 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-23 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-23 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-23 12:00:47 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-24 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-24 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-24 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-24 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-24 12:00:07 Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 101
+2013-06-24 12:00:07 Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 101
+2013-06-24 12:00:07 Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 101
+2013-06-24 12:00:08 Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 101
+2013-06-24 12:00:08 Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-25 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-25 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-25 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-25 12:00:09 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-26 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-26 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-26 00:00:05 Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 8
+2013-06-26 00:00:05 Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 8
+2013-06-26 00:00:05 Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 8
+2013-06-26 00:00:05 Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 8
+2013-06-26 00:00:05 Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-26 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-26 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-26 12:00:06 Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 64
+2013-06-26 12:00:06 Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 64
+2013-06-26 12:00:06 Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 64
+2013-06-26 12:00:06 Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 64
+2013-06-26 12:00:06 Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-27 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-27 00:00:08 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 4
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 4
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 ALERT Importazione_DB fine da /home/gips/ciscra/temp record 0/222
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-27 00:00:08 Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 4
+2013-06-27 00:00:09 Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 4
+2013-06-27 00:00:09 Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-27 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-27 12:01:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-28 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-28 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-28 00:00:06 Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 39
+2013-06-28 00:00:06 Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 39
+2013-06-28 00:00:06 Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 39
+2013-06-28 00:00:06 Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 39
+2013-06-28 00:00:06 Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-28 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-28 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-28 12:00:07 Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-06-28 12:00:07 Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-06-28 12:00:07 Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-06-28 12:00:08 Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-06-28 12:00:08 Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-06-29 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-29 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-29 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-29 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-30 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-30 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-06-30 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-06-30 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-01 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-01 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-01 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-01 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-01 12:00:07 Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 116
+2013-07-01 12:00:07 Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 116
+2013-07-01 12:00:07 Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 3
+2013-07-01 12:00:07 Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 3
+2013-07-01 12:00:07 Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 116
+2013-07-01 12:00:08 Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 116
+2013-07-01 12:00:08 Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-01 12:00:08 Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 3
+2013-07-01 12:00:08 Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 3
+2013-07-01 12:00:08 Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-02 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-02 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-02 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-02 12:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-02 12:00:17 Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 998
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 998
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 10
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 10
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 998
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 998
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 10
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 10
+2013-07-02 12:00:18 Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-03 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-03 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-03 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-03 12:00:23 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-04 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-04 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-04 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-04 12:00:19 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 23
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 23
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 253
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 253
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 12
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 12
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 12
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 12
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 23
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 23
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 253
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 253
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-04 12:00:19 Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 12
+2013-07-04 12:00:20 Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 12
+2013-07-04 12:00:20 Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-04 12:00:20 Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 12
+2013-07-04 12:00:20 Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 12
+2013-07-04 12:00:20 Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-05 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-05 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-05 00:00:06 Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 6
+2013-07-05 00:00:06 Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 6
+2013-07-05 00:00:06 Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 6
+2013-07-05 00:00:06 Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 6
+2013-07-05 00:00:06 Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-05 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-05 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-06 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-06 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-06 00:00:05 Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 129
+2013-07-06 00:00:05 Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 129
+2013-07-06 00:00:06 Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 129
+2013-07-06 00:00:06 Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 129
+2013-07-06 00:00:06 Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-06 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-06 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-07 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-07 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-07 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-07 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-07 12:00:05 Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 173
+2013-07-07 12:00:05 Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 173
+2013-07-07 12:00:06 Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 173
+2013-07-07 12:00:06 Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 173
+2013-07-07 12:00:06 Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-08 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-08 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-08 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-08 12:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-08 12:00:17 Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 3605
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 3605
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 13
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 13
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 175
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 175
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 3605
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 3605
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-08 12:00:18 Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 13
+2013-07-08 12:00:19 Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 13
+2013-07-08 12:00:19 Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-08 12:00:19 Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 175
+2013-07-08 12:00:19 Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 175
+2013-07-08 12:00:19 Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-09 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-09 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-09 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-09 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-09 12:00:06 Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 213
+2013-07-09 12:00:06 Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 213
+2013-07-09 12:00:07 Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 213
+2013-07-09 12:00:07 Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 213
+2013-07-09 12:00:07 Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-10 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-10 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-10 00:00:06 Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 10
+2013-07-10 00:00:06 Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 10
+2013-07-10 00:00:06 Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 157
+2013-07-10 00:00:06 Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 157
+2013-07-10 00:00:07 Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 10
+2013-07-10 00:00:07 Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 10
+2013-07-10 00:00:07 Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-10 00:00:07 Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 157
+2013-07-10 00:00:07 Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 157
+2013-07-10 00:00:07 Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-10 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-10 12:44:40 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-11 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-11 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-11 00:00:06 Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 187
+2013-07-11 00:00:06 Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 187
+2013-07-11 00:00:06 Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 10
+2013-07-11 00:00:06 Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 10
+2013-07-11 00:00:06 Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 187
+2013-07-11 00:00:06 Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 187
+2013-07-11 00:00:06 Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-11 00:00:07 Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 10
+2013-07-11 00:00:07 Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 10
+2013-07-11 00:00:07 Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-11 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-11 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-11 12:00:06 Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 98
+2013-07-11 12:00:06 Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 98
+2013-07-11 12:00:06 Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 98
+2013-07-11 12:00:07 Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 98
+2013-07-11 12:00:07 Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-12 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-12 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-12 00:00:06 Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 62
+2013-07-12 00:00:06 Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 62
+2013-07-12 00:00:06 Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 62
+2013-07-12 00:00:06 Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 62
+2013-07-12 00:00:06 Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-12 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-12 12:00:11 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 5
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 5
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 3
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 3
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 5
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 5
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 3
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 3
+2013-07-12 12:00:11 Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-13 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-13 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-13 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-13 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-14 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-14 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-14 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-14 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-15 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-15 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-15 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-15 12:00:09 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-15 12:00:09 Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 145
+2013-07-15 12:00:09 Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 145
+2013-07-15 12:00:09 Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 145
+2013-07-15 12:00:09 Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 145
+2013-07-15 12:00:09 Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-16 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-16 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-16 00:00:05 Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 158
+2013-07-16 00:00:05 Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 158
+2013-07-16 00:00:05 Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 158
+2013-07-16 00:00:05 Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 158
+2013-07-16 00:00:05 Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-16 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-16 12:01:56 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-16 12:01:56 Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-07-16 12:01:56 Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-07-16 12:01:56 Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-07-16 12:01:56 Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-07-16 12:01:56 Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-17 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-17 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-17 00:00:06 Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 80
+2013-07-17 00:00:06 Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 80
+2013-07-17 00:00:06 Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 80
+2013-07-17 00:00:07 Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 80
+2013-07-17 00:00:07 Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-17 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-17 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-18 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-18 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 11
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 11
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 45
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 45
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 83
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 83
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 11
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 11
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 45
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 45
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-18 00:00:07 Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 83
+2013-07-18 00:00:08 Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 83
+2013-07-18 00:00:08 Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-18 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-18 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-18 12:00:07 Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-07-18 12:00:07 Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-07-18 12:00:07 Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-07-18 12:00:07 Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-07-18 12:00:07 Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-19 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-19 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-19 00:00:05 Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 215
+2013-07-19 00:00:05 Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 215
+2013-07-19 00:00:05 Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 215
+2013-07-19 00:00:05 Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 215
+2013-07-19 00:00:05 Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-19 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-19 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-19 12:00:07 Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 14
+2013-07-19 12:00:07 Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 14
+2013-07-19 12:00:07 Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 40
+2013-07-19 12:00:07 Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 40
+2013-07-19 12:00:07 Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 14
+2013-07-19 12:00:08 Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 14
+2013-07-19 12:00:08 Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-19 12:00:08 Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 40
+2013-07-19 12:00:08 Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 40
+2013-07-19 12:00:08 Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-20 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-20 00:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-20 00:00:07 Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 98
+2013-07-20 00:00:07 Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 98
+2013-07-20 00:00:07 Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 98
+2013-07-20 00:00:08 Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 98
+2013-07-20 00:00:08 Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-20 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-20 12:00:15 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-21 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-21 00:00:10 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-21 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-21 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-22 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-22 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-22 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-22 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-22 12:00:06 Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 4
+2013-07-22 12:00:06 Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 4
+2013-07-22 12:00:06 Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 4
+2013-07-22 12:00:06 Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 4
+2013-07-22 12:00:06 Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-23 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-23 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-23 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-23 12:00:09 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-23 12:00:09 Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 46
+2013-07-23 12:00:09 Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 46
+2013-07-23 12:00:09 Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 46
+2013-07-23 12:00:09 Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 46
+2013-07-23 12:00:09 Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-24 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-24 00:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-24 00:00:17 Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 23
+2013-07-24 00:00:18 Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 23
+2013-07-24 00:00:18 Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 23
+2013-07-24 00:00:18 Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 23
+2013-07-24 00:00:18 Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-24 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-24 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-24 12:00:07 Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 27
+2013-07-24 12:00:07 Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 27
+2013-07-24 12:00:07 Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 27
+2013-07-24 12:00:07 Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 27
+2013-07-24 12:00:07 Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-25 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-25 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-25 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-25 12:00:21 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-25 12:00:21 Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 165
+2013-07-25 12:00:21 Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 165
+2013-07-25 12:00:21 Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 165
+2013-07-25 12:00:21 Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 165
+2013-07-25 12:00:21 Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-26 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-26 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-26 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-26 12:00:21 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-26 12:00:21 Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 199
+2013-07-26 12:00:21 Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 199
+2013-07-26 12:00:21 Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 199
+2013-07-26 12:00:21 Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 199
+2013-07-26 12:00:21 Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-27 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-27 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-27 00:00:06 Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-07-27 00:00:06 Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-07-27 00:00:06 Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-07-27 00:00:06 Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-07-27 00:00:06 Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-27 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-27 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-28 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-28 00:00:09 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-28 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-28 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-29 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-29 00:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-29 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-29 12:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-29 12:00:17 Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 53
+2013-07-29 12:00:17 Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 53
+2013-07-29 12:00:17 Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 53
+2013-07-29 12:00:17 Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 53
+2013-07-29 12:00:17 Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-30 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-30 00:00:11 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-30 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-30 12:00:14 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 4
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 4
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 182
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 182
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 4
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 4
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 182
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 182
+2013-07-30 12:00:14 Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-31 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-31 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-31 00:00:05 Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 50
+2013-07-31 00:00:05 Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 50
+2013-07-31 00:00:05 Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 21
+2013-07-31 00:00:05 Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 21
+2013-07-31 00:00:06 Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 50
+2013-07-31 00:00:06 Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 50
+2013-07-31 00:00:06 Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-31 00:00:06 Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 21
+2013-07-31 00:00:06 Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 21
+2013-07-31 00:00:06 Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-07-31 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-07-31 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-07-31 12:00:06 Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 2
+2013-07-31 12:00:06 Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 2
+2013-07-31 12:00:06 Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 2
+2013-07-31 12:00:06 Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 2
+2013-07-31 12:00:06 Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-01 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-01 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-01 00:00:06 Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 103
+2013-08-01 00:00:06 Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 103
+2013-08-01 00:00:06 Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 103
+2013-08-01 00:00:06 Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 103
+2013-08-01 00:00:06 Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-01 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-01 12:00:29 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-01 12:00:29 Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 3
+2013-08-01 12:00:29 Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 3
+2013-08-01 12:00:29 Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 3
+2013-08-01 12:00:29 Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 3
+2013-08-01 12:00:29 Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-02 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-02 00:00:11 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-02 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-02 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-02 12:00:07 Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-08-02 12:00:07 Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-08-02 12:00:07 Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 42
+2013-08-02 12:00:07 Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 42
+2013-08-02 12:00:07 Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-08-02 12:00:07 Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-08-02 12:00:07 Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-02 12:00:08 Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 42
+2013-08-02 12:00:08 Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 42
+2013-08-02 12:00:08 Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-03 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-03 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 341
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 341
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 2
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 2
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 341
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 341
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-03 00:00:06 Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 2
+2013-08-03 00:00:07 Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 2
+2013-08-03 00:00:07 Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-03 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-03 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-04 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-04 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-04 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-04 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-05 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-05 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-05 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-05 12:02:32 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-05 12:02:32 Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 192
+2013-08-05 12:02:32 Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 192
+2013-08-05 12:02:32 Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 192
+2013-08-05 12:02:32 Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 192
+2013-08-05 12:02:32 Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-06 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-06 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-06 00:00:05 Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 13
+2013-08-06 00:00:05 Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 13
+2013-08-06 00:00:05 Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 6
+2013-08-06 00:00:05 Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 6
+2013-08-06 00:00:06 Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 13
+2013-08-06 00:00:07 Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 13
+2013-08-06 00:00:07 Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-06 00:00:07 Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 6
+2013-08-06 00:00:07 Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 6
+2013-08-06 00:00:07 Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-06 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-06 12:00:36 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-07 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-07 00:00:18 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-07 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-07 12:00:12 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-07 12:00:12 Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 26
+2013-08-07 12:00:12 Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 26
+2013-08-07 12:00:12 Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 26
+2013-08-07 12:00:12 Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 26
+2013-08-07 12:00:12 Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-08 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-08 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-08 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-08 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-08 12:00:07 Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 4
+2013-08-08 12:00:07 Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 4
+2013-08-08 12:00:07 Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 4
+2013-08-08 12:00:07 Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 4
+2013-08-08 12:00:07 Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-09 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-09 00:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 193
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 193
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 199
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 199
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 344
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 344
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 11
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 11
+2013-08-09 00:00:07 Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 193
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 193
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 199
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 199
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 344
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 344
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-09 00:00:08 Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-08-09 00:00:09 Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-08-09 00:00:09 Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-09 00:00:09 Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 11
+2013-08-09 00:00:09 Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 11
+2013-08-09 00:00:09 Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-09 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-09 12:00:08 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-09 12:00:08 Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 84
+2013-08-09 12:00:08 Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 84
+2013-08-09 12:00:08 Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 84
+2013-08-09 12:00:08 Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 84
+2013-08-09 12:00:08 Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-10 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-10 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-10 00:00:06 Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 60
+2013-08-10 00:00:06 Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 60
+2013-08-10 00:00:06 Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 64
+2013-08-10 00:00:06 Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 64
+2013-08-10 00:00:06 Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 60
+2013-08-10 00:00:07 Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 60
+2013-08-10 00:00:07 Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-10 00:00:07 Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 64
+2013-08-10 00:00:07 Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 64
+2013-08-10 00:00:07 Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-10 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-10 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-11 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-11 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-11 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-11 12:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-12 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-12 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-12 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-12 12:00:19 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-12 12:00:19 Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 3
+2013-08-12 12:00:19 Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 3
+2013-08-12 12:00:19 Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 9
+2013-08-12 12:00:19 Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 9
+2013-08-12 12:00:19 Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 1
+2013-08-12 12:00:19 Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 1
+2013-08-12 12:00:19 Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 3
+2013-08-12 12:00:20 Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 3
+2013-08-12 12:00:20 Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-12 12:00:20 Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 9
+2013-08-12 12:00:21 Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 9
+2013-08-12 12:00:21 Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-12 12:00:21 Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 1
+2013-08-12 12:00:21 Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 1
+2013-08-12 12:00:21 Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-13 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-13 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-13 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-13 12:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-14 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-14 00:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-14 00:00:17 Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 234
+2013-08-14 00:00:17 Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 234
+2013-08-14 00:00:17 Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 234
+2013-08-14 00:00:18 Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 234
+2013-08-14 00:00:18 Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-14 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-14 12:05:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-14 12:05:06 Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 91
+2013-08-14 12:05:06 Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 91
+2013-08-14 12:05:07 Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 91
+2013-08-14 12:05:07 Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 91
+2013-08-14 12:05:07 Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-15 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-15 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-15 00:00:06 Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 39
+2013-08-15 00:00:06 Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 39
+2013-08-15 00:00:06 Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 39
+2013-08-15 00:00:06 Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 39
+2013-08-15 00:00:06 Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-15 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-15 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-16 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-16 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-16 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-16 12:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-17 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-17 00:00:17 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-17 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-17 12:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-18 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-18 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-18 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-18 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-19 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-19 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-19 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-19 18:34:56 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 4
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 4
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 35
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 35
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 4
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 4
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-19 18:34:56 Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 35
+2013-08-19 18:34:57 Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 35
+2013-08-19 18:34:57 Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-20 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-20 00:00:04 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-20 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-20 12:00:07 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-20 12:00:07 Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 419
+2013-08-20 12:00:07 Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 419
+2013-08-20 12:00:07 Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 196
+2013-08-20 12:00:07 Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 196
+2013-08-20 12:00:07 Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 419
+2013-08-20 12:00:08 Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 419
+2013-08-20 12:00:08 Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-20 12:00:08 Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 196
+2013-08-20 12:00:08 Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 196
+2013-08-20 12:00:08 Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-21 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-21 00:00:08 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-21 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-21 12:00:12 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-22 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-22 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-22 00:00:06 Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 48
+2013-08-22 00:00:06 Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 48
+2013-08-22 00:00:07 Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 48
+2013-08-22 00:00:07 Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 48
+2013-08-22 00:00:07 Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-22 12:00:02 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-22 12:00:11 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-22 12:00:12 Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 77
+2013-08-22 12:00:12 Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 77
+2013-08-22 12:00:12 Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 77
+2013-08-22 12:00:13 Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 77
+2013-08-22 12:00:13 Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-23 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-23 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-23 00:00:05 Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 124
+2013-08-23 00:00:05 Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 124
+2013-08-23 00:00:06 Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 124
+2013-08-23 00:00:06 Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 124
+2013-08-23 00:00:06 Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-23 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-23 12:00:21 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-24 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-24 00:00:11 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-24 00:00:11 Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 82
+2013-08-24 00:00:11 Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 82
+2013-08-24 00:00:11 Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 82
+2013-08-24 00:00:12 Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 82
+2013-08-24 00:00:12 Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 Spostamento in /home/gips/ciscra/imported
+2013-08-24 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-24 12:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-25 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-25 00:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-25 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-25 12:00:06 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-26 00:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-26 00:00:05 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-26 12:00:01 FTPAR.CISCRA.COM Download inizio /mnt/array1/TN3/
+2013-08-26 12:00:11 FTPAR.CISCRA.COM Download fine dettagli /home/gips.lftp/transfer_log
+2013-08-26 12:00:11 Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 Parsing inizio da /home/gips/ciscra/mirror righe 31
+2013-08-26 12:00:11 Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 Parsing fine in /home/gips/ciscra/temp righe 31
+2013-08-26 12:00:11 Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 Importazione_DB inizio da /home/gips/ciscra/temp righe 31
+2013-08-26 12:00:11 Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 Importazione_DB fine da /home/gips/ciscra/temp record 31
+2013-08-26 12:00:11 Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 Spostamento in /home/gips/ciscra/imported

@@ -1,0 +1,8 @@
+2013-06-04 00:00:01 ftp.hostname.com Download START from /mnt/array1/TN3/
+2013-06-04 00:00:08 ftp.hostname.com Download END. Details in /home/gips/.lftp/transfer_log
+2013-06-04 00:00:08 List-MILAN-2013-04-29_07.40.09.csv Parsing START from /home/gips/ciscra/mirror lines 2
+2013-06-04 00:00:08 List-MILAN-2013-04-29_07.40.09.csv Parsing END from /home/gips/ciscra/temp lines 2
+2013-06-04 00:00:09 List-MILAN-2013-04-29_07.40.09.csv Import START /home/gips/ciscra/temp with lines 2
+2013-06-04 00:00:09 List-MILAN-2013-04-29_07.40.09.csv Import ENDFimport start /home/gips/ciscra/temp record 2
+2013-06-04 00:00:09 List-MILAN-2013-04-29_07.40.09.csv Moving in /home/gips/ciscra/imported
+

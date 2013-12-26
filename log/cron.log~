@@ -1,0 +1,4716 @@
+---------------------------
+Importing ./List-MILAN-2013-04-29_07.40.09.csv with num. lines: 2
+Importing 2 records in ./List-MILAN-2013-04-29_07.40.09.csv in table containing 23557 records
+CREATE TEMPORARY TABLE temp_table (LIKE master_table);
+\copy temp_table FROM ./List-MILAN-2013-04-29_07.40.09.csv WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flows_imported(
+date_flow,
+code_group,
+code_customer,
+code_lot,
+barcode,
+weight_envelope,
+type_envelope,
+addressee,
+address,
+zipcode,
+city
+)
+SELECT DISTINCT 
+date_flow,
+code_group,
+code_customer,
+code_lot,
+barcode,
+weight_envelope,
+type_envelope,
+addressee,
+address,
+zipcode,
+city
+FROM temp_table
+WHERE NOT EXISTS ( SELECT 1
+	FROM flows_imported
+	WHERE temp_table.barcode = flows_imported.barcode );
+DROP TABLE temp_table;
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 su tabella contenente 23558 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-03_16.02.50.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 con linee: 10
+Importazione di 10 records in ./Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 su tabella contenente 23559 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-03_16.12.58.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 10
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 10
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 con linee: 307
+Importazione di 307 records in ./Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 su tabella contenente 23569 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-03_12.47.58.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 307
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 307
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 con linee: 216
+Importazione di 216 records in ./Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 su tabella contenente 23876 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-04_07.31.25.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 216
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 216
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 con linee: 11
+Importazione di 11 records in ./Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 su tabella contenente 24092 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-05_07.10.36.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 11
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 11
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 con linee: 230
+Importazione di 230 records in ./Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 su tabella contenente 24103 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-06_09.47.18.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 230
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 230
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 con linee: 139
+Importazione di 139 records in ./Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 su tabella contenente 24333 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-06_09.38.25.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 139
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 139
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 con linee: 10
+Importazione di 10 records in ./Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 su tabella contenente 24472 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-06_11.17.32.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 10
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 10
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 con linee: 344
+Importazione di 344 records in ./Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 su tabella contenente 24482 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-06_18.03.03.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 344
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 344
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 con linee: 28
+Importazione di 28 records in ./Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 su tabella contenente 24826 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-06_20.50.42.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 28
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 28
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 con linee: 103
+Importazione di 103 records in ./Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 su tabella contenente 24854 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-07_11.27.01.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 103
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 103
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 su tabella contenente 24957 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-07_08.05.30.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 con linee: 167
+Importazione di 167 records in ./Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 su tabella contenente 24958 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-10_07.17.24.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 167
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 167
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 con linee: 53
+Importazione di 53 records in ./Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 su tabella contenente 25125 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-11_09.55.00.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 53
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 53
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 con linee: 3
+Importazione di 3 records in ./Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 su tabella contenente 25178 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-12_07.22.33.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 3
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 3
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 con linee: 75
+Importazione di 75 records in ./Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 su tabella contenente 25181 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-12_17.36.44.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 75
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 75
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 con linee: 2
+Importazione di 2 records in ./Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 su tabella contenente 25256 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-12_13.29.26.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 2
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 2
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 con linee: 285
+Importazione di 285 records in ./Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 su tabella contenente 25258 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-12_14.47.30.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 285
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 285
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 su tabella contenente 25543 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-13_09.55.37.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 con linee: 91
+Importazione di 91 records in ./Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 su tabella contenente 25544 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-13_14.12.39.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 91
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 91
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 con linee: 126
+Importazione di 126 records in ./Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 su tabella contenente 25635 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-14_09.17.50.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 126
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 126
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 con linee: 56
+Importazione di 56 records in ./Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 su tabella contenente 25761 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-14_17.40.30.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 56
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 56
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 con linee: 43
+Importazione di 43 records in ./Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 su tabella contenente 25817 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-17_17.05.26.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 43
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 43
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 con linee: 199
+Importazione di 199 records in ./Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 su tabella contenente 25860 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-17_15.46.57.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 199
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 199
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 con linee: 2
+Importazione di 2 records in ./Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 su tabella contenente 26059 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-18_14.42.44.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 2
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 2
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 su tabella contenente 26061 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-19_06.23.57.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 con linee: 58
+Importazione di 58 records in ./Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 su tabella contenente 26062 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-19_12.02.08.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 58
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 58
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 con linee: 146
+Importazione di 146 records in ./Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 su tabella contenente 26120 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-20_15.00.53.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 146
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 146
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 con linee: 48
+Importazione di 48 records in ./Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 su tabella contenente 26266 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-21_11.02.40.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 48
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 48
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 con linee: 17
+Importazione di 17 records in ./Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 su tabella contenente 26314 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-21_09.45.34.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 17
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 17
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 con linee: 101
+Importazione di 101 records in ./Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 su tabella contenente 26331 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-24_07.45.54.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 101
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 101
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 con linee: 8
+Importazione di 8 records in ./Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 su tabella contenente 26432 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-25_14.08.46.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 8
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 8
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 con linee: 64
+Importazione di 64 records in ./Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 su tabella contenente 26440 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-26_09.50.00.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 64
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 64
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 con linee: 222
+Importazione di 222 records in ./Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 su tabella contenente 26504 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-26_17.22.23.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 222
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 222
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 con linee: 222
+Importazione di 222 records in ./Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 su tabella contenente 26726 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-26_16.47.00.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 0
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 0
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 con linee: 4
+Importazione di 4 records in ./Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 su tabella contenente 26726 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-26_11.45.27.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 4
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 4
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 con linee: 39
+Importazione di 39 records in ./Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 su tabella contenente 26730 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-27_15.50.24.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 39
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 39
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 su tabella contenente 26769 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-06-28_06.17.42.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 con linee: 116
+Importazione di 116 records in ./Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 su tabella contenente 26770 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-01_00.32.11.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 116
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 116
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 con linee: 3
+Importazione di 3 records in ./Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 su tabella contenente 26886 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-01_11.23.21.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 3
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 3
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 con linee: 998
+Importazione di 998 records in ./Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 su tabella contenente 26889 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-02_11.03.55.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 998
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 998
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 con linee: 10
+Importazione di 10 records in ./Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 su tabella contenente 27887 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-02_09.28.24.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 10
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 10
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 con linee: 23
+Importazione di 23 records in ./Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 su tabella contenente 27897 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-03_23.57.32.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 23
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 23
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 con linee: 253
+Importazione di 253 records in ./Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 su tabella contenente 27920 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-04_02.01.16.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 253
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 253
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 con linee: 12
+Importazione di 12 records in ./Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 su tabella contenente 28173 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-04_05.36.47.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 12
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 12
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 con linee: 12
+Importazione di 12 records in ./Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 su tabella contenente 28185 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-04_09.31.21.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 12
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 12
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 con linee: 6
+Importazione di 6 records in ./Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 su tabella contenente 28197 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-04_15.30.59.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 6
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 6
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 con linee: 129
+Importazione di 129 records in ./Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 su tabella contenente 28203 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-05_18.37.45.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 129
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 129
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 con linee: 173
+Importazione di 173 records in ./Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 su tabella contenente 28332 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-07_04.57.42.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 173
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 173
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 con linee: 3605
+Importazione di 3605 records in ./Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 su tabella contenente 28505 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-08_09.53.11.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 3605
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 3605
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 con linee: 13
+Importazione di 13 records in ./Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 su tabella contenente 32110 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-08_07.23.16.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 13
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 13
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 con linee: 175
+Importazione di 175 records in ./Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 su tabella contenente 32123 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-08_07.12.50.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 175
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 175
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 con linee: 213
+Importazione di 213 records in ./Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 su tabella contenente 32298 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-08_23.50.51.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 213
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 213
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 con linee: 10
+Importazione di 10 records in ./Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 su tabella contenente 32511 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-09_18.11.20.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 10
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 10
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 con linee: 157
+Importazione di 157 records in ./Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 su tabella contenente 32521 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-09_17.07.16.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 157
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 157
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 con linee: 187
+Importazione di 187 records in ./Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 su tabella contenente 32678 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-10_18.53.13.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 187
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 187
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 con linee: 10
+Importazione di 10 records in ./Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 su tabella contenente 32865 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-10_19.46.27.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 10
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 10
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 con linee: 98
+Importazione di 98 records in ./Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 su tabella contenente 32875 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-11_10.33.37.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 98
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 98
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 con linee: 62
+Importazione di 62 records in ./Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 su tabella contenente 32973 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-11_15.46.02.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 62
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 62
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 con linee: 5
+Importazione di 5 records in ./Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 su tabella contenente 33035 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-12_07.25.03.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 5
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 5
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 con linee: 3
+Importazione di 3 records in ./Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 su tabella contenente 33040 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-12_07.28.50.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 3
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 3
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 con linee: 145
+Importazione di 145 records in ./Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 su tabella contenente 33043 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-15_09.39.15.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 145
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 145
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 con linee: 158
+Importazione di 158 records in ./Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 su tabella contenente 33188 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-15_17.28.50.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 158
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 158
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 su tabella contenente 33346 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-16_06.59.21.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 con linee: 80
+Importazione di 80 records in ./Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 su tabella contenente 33347 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-16_16.32.55.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 80
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 80
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 con linee: 11
+Importazione di 11 records in ./Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 su tabella contenente 33427 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-17_11.38.40.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 11
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 11
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 con linee: 45
+Importazione di 45 records in ./Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 su tabella contenente 33438 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-17_15.36.00.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 45
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 45
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 con linee: 83
+Importazione di 83 records in ./Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 su tabella contenente 33483 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-17_14.14.28.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 83
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 83
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 su tabella contenente 33566 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-18_08.11.45.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 con linee: 215
+Importazione di 215 records in ./Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 su tabella contenente 33567 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-18_14.38.44.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 215
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 215
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 con linee: 14
+Importazione di 14 records in ./Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 su tabella contenente 33782 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-19_07.50.45.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 14
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 14
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 con linee: 40
+Importazione di 40 records in ./Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 su tabella contenente 33796 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-19_07.44.18.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 40
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 40
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 con linee: 98
+Importazione di 98 records in ./Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 su tabella contenente 33836 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-19_16.30.15.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 98
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 98
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 con linee: 4
+Importazione di 4 records in ./Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 su tabella contenente 33934 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-22_06.29.08.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 4
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 4
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 con linee: 46
+Importazione di 46 records in ./Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 su tabella contenente 33938 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-23_08.59.08.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 46
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 46
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 con linee: 23
+Importazione di 23 records in ./Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 su tabella contenente 33984 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-23_19.03.20.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 23
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 23
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 con linee: 27
+Importazione di 27 records in ./Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 su tabella contenente 34007 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-24_09.40.12.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 27
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 27
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 con linee: 165
+Importazione di 165 records in ./Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 su tabella contenente 34034 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-25_10.34.03.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 165
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 165
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 con linee: 199
+Importazione di 199 records in ./Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 su tabella contenente 34199 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-26_07.29.18.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 199
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 199
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 su tabella contenente 34398 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-26_14.12.55.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 con linee: 53
+Importazione di 53 records in ./Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 su tabella contenente 34399 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-29_07.06.33.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 53
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 53
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 con linee: 4
+Importazione di 4 records in ./Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 su tabella contenente 34452 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-30_07.11.22.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 4
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 4
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 con linee: 182
+Importazione di 182 records in ./Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 su tabella contenente 34456 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-30_07.55.10.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 182
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 182
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 con linee: 50
+Importazione di 50 records in ./Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 su tabella contenente 34638 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-30_20.35.17.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 50
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 50
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 con linee: 21
+Importazione di 21 records in ./Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 su tabella contenente 34688 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-30_13.57.26.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 21
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 21
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 con linee: 2
+Importazione di 2 records in ./Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 su tabella contenente 34709 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-31_09.01.46.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 2
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 2
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 con linee: 103
+Importazione di 103 records in ./Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 su tabella contenente 34711 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-07-31_16.42.14.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 103
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 103
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 con linee: 3
+Importazione di 3 records in ./Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 su tabella contenente 34814 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-01_06.34.18.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 3
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 3
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 su tabella contenente 34817 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-02_08.54.35.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 con linee: 42
+Importazione di 42 records in ./Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 su tabella contenente 34818 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-02_06.37.32.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 42
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 42
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 con linee: 341
+Importazione di 341 records in ./Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 su tabella contenente 34860 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-02_12.00.34.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 341
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 341
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 con linee: 2
+Importazione di 2 records in ./Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 su tabella contenente 35201 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-02_11.54.03.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 2
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 2
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 con linee: 192
+Importazione di 192 records in ./Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 su tabella contenente 35203 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-05_08.26.04.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 192
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 192
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 con linee: 13
+Importazione di 13 records in ./Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 su tabella contenente 35395 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-05_15.58.44.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 13
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 13
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 con linee: 6
+Importazione di 6 records in ./Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 su tabella contenente 35408 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-05_17.11.28.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 6
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 6
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 con linee: 26
+Importazione di 26 records in ./Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 su tabella contenente 35414 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-07_08.37.19.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 26
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 26
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 con linee: 4
+Importazione di 4 records in ./Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 su tabella contenente 35440 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-08_07.15.52.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 4
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 4
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 con linee: 193
+Importazione di 193 records in ./Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 su tabella contenente 35444 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-08_11.53.11.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 193
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 193
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 con linee: 199
+Importazione di 199 records in ./Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 su tabella contenente 35637 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-08_11.57.49.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 199
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 199
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 con linee: 344
+Importazione di 344 records in ./Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 su tabella contenente 35836 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-08_19.34.13.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 344
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 344
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 su tabella contenente 36180 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-08_12.29.44.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 con linee: 11
+Importazione di 11 records in ./Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 su tabella contenente 36181 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-08_15.04.34.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 11
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 11
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 con linee: 84
+Importazione di 84 records in ./Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 su tabella contenente 36192 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-09_09.03.34.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 84
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 84
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 con linee: 60
+Importazione di 60 records in ./Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 su tabella contenente 36276 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-09_11.58.50.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 60
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 60
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 con linee: 64
+Importazione di 64 records in ./Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 su tabella contenente 36336 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-09_18.10.15.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 64
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 64
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 con linee: 3
+Importazione di 3 records in ./Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 su tabella contenente 36400 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-12_07.14.08.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 3
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 3
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 con linee: 9
+Importazione di 9 records in ./Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 su tabella contenente 36403 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-12_07.45.09.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 9
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 9
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 con linee: 1
+Importazione di 1 records in ./Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 su tabella contenente 36412 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-12_09.36.49.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 1
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 1
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 con linee: 234
+Importazione di 234 records in ./Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 su tabella contenente 36413 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-13_14.18.06.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 234
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 234
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 con linee: 91
+Importazione di 91 records in ./Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 su tabella contenente 36647 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-14_06.59.49.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 91
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 91
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 con linee: 39
+Importazione di 39 records in ./Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 su tabella contenente 36738 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-14_14.28.53.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 39
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 39
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 con linee: 4
+Importazione di 4 records in ./Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 su tabella contenente 36777 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-19_16.42.47.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 4
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 4
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 con linee: 35
+Importazione di 35 records in ./Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 su tabella contenente 36781 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-19_07.17.36.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 35
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 35
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 con linee: 419
+Importazione di 419 records in ./Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 su tabella contenente 36816 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-20_10.52.07.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 419
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 419
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 con linee: 196
+Importazione di 196 records in ./Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 su tabella contenente 37235 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-20_08.18.23.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 196
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 196
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 con linee: 48
+Importazione di 48 records in ./Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 su tabella contenente 37431 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-21_14.49.22.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 48
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 48
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 con linee: 77
+Importazione di 77 records in ./Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 su tabella contenente 37479 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-22_08.19.53.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 77
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 77
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 con linee: 124
+Importazione di 124 records in ./Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 su tabella contenente 37556 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-22_15.29.55.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 124
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 124
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 con linee: 82
+Importazione di 82 records in ./Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 su tabella contenente 37680 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-23_14.30.15.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 82
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 82
+---------------------------
+In fase d'importazione per ./Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 con linee: 31
+Importazione di 31 records in ./Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 su tabella contenente 37762 records
+CREATE TEMPORARY TABLE temp_ciscra (LIKE flussi_ciscra);
+CREATE TABLE
+\copy temp_ciscra FROM ./Distinta-MILANO-2013-08-26_08.59.39.txt.TN3 WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flussi_importati(
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+)
+SELECT DISTINCT 
+data_flusso,
+codice_gruppo,
+codice_cliente,
+codice_lotto,
+barcode,
+peso_busta,
+tipo_busta,
+destinatario,
+indirizzo,
+cap,
+paese
+FROM temp_ciscra
+WHERE NOT EXISTS ( SELECT 1
+	FROM flussi_importati
+	WHERE temp_ciscra.barcode = flussi_importati.barcode );
+INSERT 0 31
+DROP TABLE temp_ciscra;
+DROP TABLE
+Differenza record (record inseriti)-> 31

@@ -1,0 +1,36 @@
+---------------------------
+Importing ./List-MILAN-2013-04-29_07.40.09.csv with num. lines: 2
+Importing 2 records in ./List-MILAN-2013-04-29_07.40.09.csv in table containing 23557 records
+CREATE TEMPORARY TABLE temp_table (LIKE master_table);
+\copy temp_table FROM ./List-MILAN-2013-04-29_07.40.09.csv WITH (FORMAT CSV, DELIMITER ';');
+INSERT INTO flows_imported(
+date_flow,
+code_group,
+code_customer,
+code_lot,
+barcode,
+weight_envelope,
+type_envelope,
+addressee,
+address,
+zipcode,
+city
+)
+SELECT DISTINCT 
+date_flow,
+code_group,
+code_customer,
+code_lot,
+barcode,
+weight_envelope,
+type_envelope,
+addressee,
+address,
+zipcode,
+city
+FROM temp_table
+WHERE NOT EXISTS ( SELECT 1
+	FROM flows_imported
+	WHERE temp_table.barcode = flows_imported.barcode );
+DROP TABLE temp_table;
+Records gap -> 1
