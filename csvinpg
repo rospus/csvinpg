@@ -18,7 +18,7 @@
 ################################################################################
 
 #SFTP login info for mirroring with lftp.
-HOST=hostname
+HOST=ftp.hostname.com
 REMOTE=/remote_dir
 USER=username
 PASS=password
@@ -43,7 +43,7 @@ DB_NAME=db_username
 ################################################################################
 
 # Logging when SFTP mirroring starts.
-echo "$(date "+%Y-%m-%d %T") $HOST Download inizio $REMOTE/" >> $LOG/mirror.log 2>&1
+echo "$(date "+%Y-%m-%d %T") $HOST Download STARTR from $REMOTE/" >> $LOG/mirror.log 2>&1
 
 # Terminal info just for checking.
 # echo "Downloading files via SFTP from $USER@$HOST..."
@@ -55,7 +55,7 @@ bye
 MIRRORING
 
 # Logging when mirroring finished. Details available in lftp transfer_log.
-echo "$(date "+%Y-%m-%d %T") $HOST Download fine dettagli $USER_HOME.lftp/transfer_log" >> $LOG/mirror.log 2>&1
+echo "$(date "+%Y-%m-%d %T") $HOST END download. Details in $USER_HOME/.lftp/transfer_log" >> $LOG/mirror.log 2>&1
 
 ################################################################################
 # STEP 2 - Find and manage in $MIRROR new files coming from remote SFTP  
@@ -83,7 +83,7 @@ for file in $list_mirror; do
 	lines_in=$(wc -l < $file)
 
 	# Logging when $file parsing starts, with its number of lines.
-	echo "$(date "+%Y-%m-%d %T") ${file:2} Parsing inizio da $MIRROR righe $lines_in" >> $LOG/mirror.log 2>&1
+	echo "$(date "+%Y-%m-%d %T") ${file:2} Parsing START from $MIRROR lines $lines_in" >> $LOG/mirror.log 2>&1
 
 	# Get file's last modification timestamp.
 	MODDATE=$(stat -c %y $file)
