@@ -144,8 +144,8 @@ for file in $list_mirror; do
 	if [ $lines_temp=$lines_in ]; then
 		echo "$(date "+%Y-%m-%d %T") ${file:2} Parsing fine in $TEMP righe $lines_in" >> $LOG/mirror.log 2>&1
 	else
-		echo "$(date "+%Y-%m-%d %T") ${file:2} ERROR Parsing fine in $TEMP terminato con righe $lines_temp/$lines_in" >> $LOG/error_log 2>&1
-		echo "$(date "+%Y-%m-%d %T") ${file:2} ERROR Parsing fine in $TEMP terminato con righe $lines_temp/$lines_in" >> $LOG/mirror.log 2>&1
+		echo "$(date "+%Y-%m-%d %T") ${file:2} ERROR Parsing END in $TEMP with lines $lines_temp/$lines_in" >> $LOG/error_log 2>&1
+		echo "$(date "+%Y-%m-%d %T") ${file:2} ERROR Parsing END in $TEMP with lines $lines_temp/$lines_in" >> $LOG/mirror.log 2>&1
 	fi
 
 	# Option to copy files 'as they are' instead of inserting timestamp and
