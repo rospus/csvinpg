@@ -8,8 +8,6 @@
 # Date: 02/06/2013
 # License: GNU General Public License (GPL) version 3
 # DeScription: added $USER_HOME explicitly for script execution as a cron job.
-# 
-# WARNING: logging info contained in external file "./import.conf".
 #
 # CHANGELOG:
 # v0.5 (25/05/2013) Added encoding change to UTF-8 to purge invalid chars.
